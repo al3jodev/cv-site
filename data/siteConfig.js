@@ -1,111 +1,143 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: "Hi! I'm Alejandro Jaramillo!",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Alejandro Jaramillo',
+  twitterUsername: 'al3jodev',
+  githubUsername: 'al3jodev',
+  authorAvatar: '/images/avatar_aj.jpg',
+  authorDescription: `Developer, passionate about what I do. Always interested in new technologies, currently mischievous with <strong>Gatsby</strong>,I started studying Systems Engineering in 2001. </br>
+                      In 2011 I started working as a support technician, however I did development in php, dojo and ireport. In 2014 I started working at the National Telecommunications Corporation where I developed mobile applications on <strong>Ionicframework</strong> and development of services on <strong>WebSphere, Integration Bus V8 and V9</strong>. </br>
+                      I am currently working as a developer at Technisys. </br>
+                      Learning <strong>Javascript, NodeJS and React</strong>.`,
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 70,
     },
     {
       name: 'CSS',
-      level: 60
+      level: 40,
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 50,
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 10,
     },
     {
       name: 'React',
-      level: 60
+      level: 10,
     },
     {
       name: 'Git',
-      level: 70
+      level: 60,
     },
-    /* more skills here */
+    {
+      name: 'Ionic Framewrok',
+      level: 70,
+    },
+    {
+      name: 'IBM WebSphere and Integration Bus',
+      level: 70,
+    },
   ],
   jobs: [
-    /* more jobs here */
     {
-      company: "Gympass",
+      company: 'Technisys',
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'may',
+        year: '2021',
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
+      occupation: 'CMM Developer',
+      description: `The Technisys banking core has a middleware in charge of communicating to the different channels with the bank's core, for which it develops canonical and orchestrated services in Websphere Message Broker and IBM Integration Bus.`,
+    },
+    {
+      company: 'CNT EP',
       begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'jan',
+        year: '2020',
       },
       duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
+      occupation: 'IT Architecture Analyst',
+      description:
+        'I am part of the IT Architecture team responsible for the development of banking services on the ESB for the collection of mobile and fixed telephony services through financial entities.',
+    },
+    {
+      company: 'CNT EP',
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'oct',
+        year: '2014',
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '5 yr e 4 mos',
+      occupation: 'Senior developer',
+      description:
+        'As part of the Developers team I am responsible for mobile applications developed on Ionicframework.',
+    },
+    {
+      company: 'Civil registration and identification',
+      begin: {
+        month: 'may',
+        year: '2011',
+      },
+      duration: '3 yrs',
+      occupation: 'Support Technician',
+      description:
+        'Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool.',
     },
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: '/images/gatsby-starter-cv.png',
+      description: 'Gatsby starter CV template',
+      url: 'https://www.gatsbyjs.org/starters/al3jodev/gatsby-starter-cv/',
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: '/images/awesome-grid.png',
+      description: 'Responsive grid for ReactJS',
+      url: 'https://github.com/al3jodev/react-awesome-styled-grid',
     },
-    /* more portifolio items here */
+  ],
+  hobby: [
+    {
+      image: '/images/gatsby-starter-cv.png',
+      description: 'Gatsby starter CV template',
+      url: 'https://www.gatsbyjs.org/starters/al3jodev/gatsby-starter-cv/',
+    },
+    {
+      image: '/images/awesome-grid.png',
+      description: 'Responsive grid for ReactJS',
+      url: 'https://github.com/al3jodev/react-awesome-styled-grid',
+    },
+  ],
+  courses: [
+    {
+      image: '/images/gatsby-starter-cv.png',
+      description: 'Gatsby starter CV template',
+      url: 'https://www.gatsbyjs.org/starters/al3jodev/gatsby-starter-cv/',
+    },
+    {
+      image: '/images/awesome-grid.png',
+      description: 'Responsive grid for ReactJS',
+      url: 'https://github.com/al3jodev/react-awesome-styled-grid',
+    },
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: 'https://twitter.com/al3jodev',
+    linkedin: 'https://www.linkedin.com/al3jodev',
+    github: 'https://github.com/al3jodev',
+    email: 'al3jodev@outlook.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: '',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/fondo_header.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
-  fontColor: "#000000cc",
+  fontColor: '#000000cc',
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
@@ -117,6 +149,15 @@ module.exports = {
     {
       label: 'Portifolio',
       url: '/portifolio',
-    }
-  ]
+    },
+    {
+      label: 'Courses',
+      url: '/courses',
+    },
+    ,
+    {
+      label: 'Hobby',
+      url: '/hobby',
+    },
+  ],
 }
