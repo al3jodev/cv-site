@@ -131,7 +131,7 @@ module.exports = {
     github: 'https://github.com/al3jodev',
     email: 'al3jodev@outlook.com',
   },
-  siteUrl: '',
+  siteUrl: 'https://al3jodev.gatsbyjs.io',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/fondo_header.jpg',
   googleAnalyticsId: 'UA-000000000-1',
