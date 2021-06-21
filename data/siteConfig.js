@@ -134,7 +134,7 @@ module.exports = {
   siteUrl: 'https://al3jodev.gatsbyjs.io',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/fondo_header.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'G-JC4PKPWYWX',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: '#000000cc',
