@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa'
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from 'gatsby'
 import loadable from '@loadable/component'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
@@ -43,12 +44,12 @@ const Home = ({ className, location }) => {
         <Container className="page-content" fluid>
           <Row>
             <Col xs={4} className="avatar">
-              <img
+              <StaticImage
                 className="avatar__image"
-                src={withPrefix(siteConfig.authorAvatar)}
+                src="../../static/images/avatar_aj.jpg"
                 alt="user avatar"
-                width="200"
-                height="200"
+                width={200}
+                height={200}
               />
               <div className="social">
                 {siteConfig.social.github && (
