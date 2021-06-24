@@ -56,6 +56,7 @@ const Home = ({ className, location }) => {
                   <a
                     className="social-link github"
                     href={siteConfig.social.github}
+                    arial-label="Github"
                   >
                     <FaGithub className="social-icon" size="32" />
                   </a>
@@ -64,6 +65,7 @@ const Home = ({ className, location }) => {
                   <a
                     className="social-link linkedin"
                     href={siteConfig.social.linkedin}
+                    arial-label="Linkedin"
                   >
                     <FaLinkedin className="social-icon" size="32" />
                   </a>
@@ -72,6 +74,7 @@ const Home = ({ className, location }) => {
                   <a
                     className="social-link twitter"
                     href={siteConfig.social.twitter}
+                    arial-label="Twitter"
                   >
                     <FaTwitter className="social-icon" size="32" />
                   </a>
@@ -80,6 +83,7 @@ const Home = ({ className, location }) => {
                   <a
                     className="social-link email"
                     href={`mailto:${siteConfig.social.email}`}
+                    arial-label="Email"
                   >
                     <FaEnvelope className="social-icon" size="32" />
                   </a>
