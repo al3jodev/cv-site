@@ -9,7 +9,7 @@
     "babel-plugin-styled-components": "1.10.6",
     "framer-motion": "1.11.0",
     "gatsby": "^3.8.0",
-    "gatsby-plugin-google-gtag": "^2.8.0",
+    "gatsby-plugin-google-gtag": "^3.8.0",
     "gatsby-plugin-image": "^1.8.0",
     "gatsby-plugin-manifest": "^3.8.0",
     "gatsby-plugin-offline": "3.2.9",
